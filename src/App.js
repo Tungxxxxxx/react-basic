@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          aaa <code>Con mẹ nó</code> Chúng mày aaaaaassssssssssaaaaaaaaạ.
+          aaa <code>Con mẹ nó</code> Chúng mày Cút hết.
         </p>
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           dit me may
