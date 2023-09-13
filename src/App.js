@@ -10,7 +10,7 @@ function App() {
           aaa <code>Con mẹ nó</code> Chúng mày aaaaaassssssssssaaaaaaaaạ.
         </p>
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Đây là cái đéo gì vậyaaaaaa
+          dit me may
         </a>
       </header>
     </div>
