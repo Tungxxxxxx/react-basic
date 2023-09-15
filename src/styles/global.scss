@@ -11,4 +11,8 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+  table, table td, th{
+    border: 1px solid beige;
+    min-width: 100px;
+  }
   
