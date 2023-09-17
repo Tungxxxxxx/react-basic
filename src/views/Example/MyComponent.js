@@ -6,6 +6,11 @@ class MyComponent extends React.Component {
   state = {
     lastName: 'aaa',
     firstName: '',
+    arrJobs: [
+      { id: 'sasdasdasd', title: 'Project manager', salary: '2000$' },
+      { id: '2123123', title: 'Developer', salary: '1000$' },
+      { id: 'sasdadrqwesdasd', title: 'Tester', salary: '1000$' },
+    ],
   };
   handleOnchangeLastName = (event) => {
     this.setState({
@@ -49,12 +54,12 @@ class MyComponent extends React.Component {
         <input type="submit" value="Submit" onClick={(event) => this.handleOnSubmit(event)} />
         <br />
         <br />
-        <ChildComponent name={'Phạm Thanh Tùng'} age={30} />
-        <br />
+        <ChildComponent state={this.state} />
+        {/* <br />
         <ChildComponent name={'Hoàng thị Thu Hà'} age={28} />
         <br />
         <ChildComponent name={'Phạm Đăng Hoàng Đức'} age={2} />
-        <br />
+        <br /> */}
       </>
     );
   }
