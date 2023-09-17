@@ -1,5 +1,6 @@
 import { eventWrapper } from '@testing-library/user-event/dist/utils';
 import React from 'react';
+import ChildComponent from './ChildComponent';
 
 class MyComponent extends React.Component {
   state = {
@@ -46,6 +47,14 @@ class MyComponent extends React.Component {
         <br />
         <br />
         <input type="submit" value="Submit" onClick={(event) => this.handleOnSubmit(event)} />
+        <br />
+        <br />
+        <ChildComponent name={'Phạm Thanh Tùng'} age={30} />
+        <br />
+        <ChildComponent name={'Hoàng thị Thu Hà'} age={28} />
+        <br />
+        <ChildComponent name={'Phạm Đăng Hoàng Đức'} age={2} />
+        <br />
       </>
     );
   }
