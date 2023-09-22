@@ -27,8 +27,9 @@ class MyComponent extends React.Component {
   render() {
     return (
       <>
+        <p>Đây là component chứa form add data</p>
         <AddComponent addJob={this.addJob} />
-
+        <p>Đây là component chứa display, delete data</p>
         <ChildComponent arrJobs={this.state.arrJobs} deleteJob={this.deleteJob} />
       </>
     );

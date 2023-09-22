@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <AppArrow />
+    {/* <AppArrow /> */}
   </React.StrictMode>,
   document.getElementById('root'),
 );
